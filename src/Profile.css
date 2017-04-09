@@ -1,5 +1,20 @@
 .page-header {
-  background-image: url('http://vignette1.wikia.nocookie.net/swfans/images/5/51/Wiki-background.png/revision/latest?cb=20130503152731');
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #778899;
   height: 300px;
+}
+
+.profile-and-name {
+  background-image: url('./profile-pic.jpg');
+  background-position: center;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.name {
+  color: #FFF;
 }
