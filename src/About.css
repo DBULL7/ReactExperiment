@@ -1,7 +1,13 @@
+.wrapper {
+  justify-content: center;
+  width: 100%;
+}
+
 .about {
+  width: 60%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  text-align: center;
-  width: 60%;
   justify-content: center;
+  text-align: center;
 }
